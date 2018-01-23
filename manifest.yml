@@ -1,0 +1,6 @@
+---
+applications:
+- name: python-buildpack-test
+  memory: 128MB
+  buildpack: python_buildpack
+  host: python-buildpack-test-${random-word}
